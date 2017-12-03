@@ -5,7 +5,7 @@
 	<div class="row">
 		<div class="col-lg-12">
 			<div class="panel panel-default">
-				<a class="btn button" href="/create">Create</a>
+				<a class="btn button" href="{{ route('create') }}">Create</a>
 				<div class="panel-body">
 					<table class="table table-striped">
 						<thead>
