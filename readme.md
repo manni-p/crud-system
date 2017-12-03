@@ -8,6 +8,8 @@ To install this project on your local machine, please follow:
 * In the .env file there is database username and password settings (note this should never be included in git but for testing purpose this has been included)
 * In command line/terminal cd into the root directory and run $ php artisan migrate
 * This will build up the database with the correct table (note there is an sql file in the root directory for an example)
+* chmod -R 777 the storage directory
+* run this command php artisan storage:link (this is used to get the results.txt file) this creates a sym link to the storage directory in your public folder.
 
 ## How it works
 
