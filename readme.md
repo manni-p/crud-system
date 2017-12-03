@@ -17,5 +17,6 @@ I have created a little backend, you can use:
 
 * URL: http://project-name/create to add to the database and then this will create a txt file which contains the data in a json file.
 * This file is then being used in the ResultController and pulls 4 results and when you scroll down it will load the next 4 results
+* The txt file is located here - http://project-name/storage/results.txt
 
 Hope this is what you were looking for!
