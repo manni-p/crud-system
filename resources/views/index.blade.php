@@ -5,6 +5,7 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="results-container" data-page="1">
+                @if($json)
                 @foreach($json as $result)
                 <div class="result-inside">
                     <div class="row">
@@ -24,6 +25,9 @@
                 </div>
 
                 @endforeach
+                @else
+                    No Results
+                @endif
             </div>
         </div>
     </div>

@@ -17,7 +17,7 @@ class CreateResultsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('slug');
-            $table->string('duration');
+            $table->string('duration')->nullable();
             $table->text('description');
             $table->integer('price');
             $table->integer('offer_price')->nullable();
