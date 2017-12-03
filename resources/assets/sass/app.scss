@@ -1,0 +1,38 @@
+
+// Variables
+@import "variables";
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+textarea{
+	width:100%;
+}
+.btn{
+	background:$brand-primary;
+	color:white;
+}
+
+.logo{
+	margin:20px;
+	font-size:80px;
+}
+
+img{
+	max-width:100%;
+}
+
+.results-container{
+
+	.result-inside{
+		border:1px solid grey;
+		margin-bottom:20px;
+		.information{
+			padding:20px;
+		}
+	}
+}
+
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
